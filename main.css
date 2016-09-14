@@ -1,0 +1,28 @@
+
+body {
+  background-color: #e0e0e0;
+  padding-top: 10px;
+  background-position: center center, center top;
+  background-repeat: repeat, no-repeat;
+}
+
+hr {
+    width: auto;
+    margin: 0 10px;
+}
+
+.collaps li > input + * {
+ display: none;
+}
+
+.collaps li > input:checked + * {
+ display: block;
+}
+
+.collaps li > input {
+ display: none;
+}
+
+.collaps label {
+ cursor: pointer;
+}
