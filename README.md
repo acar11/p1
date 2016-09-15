@@ -1,4 +1,4 @@
-# Portfolio - 1 Project
+# Portfolio - Project One
 
 ## Github URL
 <https://github.com/acar11/p1>
