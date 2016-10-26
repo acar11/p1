@@ -10,7 +10,7 @@ hr {
     width: auto;
     margin: 0 10px;
 }
-
+/*
 .collaps li > input + * {
  display: none;
 }
@@ -25,4 +25,32 @@ hr {
 
 .collaps label {
  cursor: pointer;
+}
+*/
+/* start */
+
+ .collaps li > input + * {
+  display: none;
+ }
+
+ .collaps li > input:checked + * {
+  display: block;
+ }
+
+ .collaps label {
+  cursor: pointer;
+ }
+
+ .collaps label {
+text-decoration: underline;
+color: green;
+}
+
+.collaps li > input {
+  display: none;
+}
+.collaps li > input {
+ position: absolute;
+ left: 0;
+ margin-left: -999px;
 }
